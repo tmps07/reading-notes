@@ -1,48 +1,38 @@
 name: Auto Update Docsify Sidebar
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
+  sidebar:
+    runs-on: ubuntu-latest
 
-sidebar:
+    steps:
+      - uses: actions/checkout@v4
 
-```
-runs-on: ubuntu-latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-steps:
+      - name: Install
+        run: npm install
 
-  - uses: actions/checkout@v4
+      - name: Generate Sidebar
+        run: npx docsify-auto-sidebar -d .
 
-  - uses: actions/setup-node@v4
-    with:
-      node-version: 20
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-  - name: Install
-    run: |
-      npm install
+          git add _sidebar.md
 
-  - name: Generate Sidebar
-    run: |
-      npx docsify-auto-sidebar -d .
-
-  - name: Commit
-
-    run: |
-
-      git config user.name github-actions
-      git config user.email github-actions@github.com
-
-      git add _sidebar.md
-
-      git diff --cached --quiet || (
-        git commit -m "auto update sidebar"
-        git push
-      )
-```
-
+          git diff --cached --quiet || (
+            git commit -m "auto update sidebar"
+            git push
+          )
