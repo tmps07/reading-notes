@@ -1,6 +1,6 @@
   - [markdown](/markdown/README.md)
     - [CH01.Markdown基礎與設計理念](/markdown/CH01.Markdown基礎與設計理念.md)
-    - [Markdown quick View](/markdown/Markdown%20quick%20View.md)
+    - [MarkdownQuickView](/markdown/MarkdownQuickView.md)
   - [ollama](/ollama/README.md)
     - [Ollama快速導覽](/ollama/Ollama快速導覽.md)
   - [poetry](/poetry/README.md)
