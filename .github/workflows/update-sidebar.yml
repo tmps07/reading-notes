@@ -1,0 +1,46 @@
+name: Auto Update Docsify Sidebar
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "!_sidebar.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-sidebar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate Docsify sidebar
+        run: npm run sidebar
+
+      - name: Commit sidebar if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet _sidebar.md; then
+            echo "No sidebar changes."
+          else
+            git add _sidebar.md
+            git commit -m "auto update sidebar"
+            git push
+          fi

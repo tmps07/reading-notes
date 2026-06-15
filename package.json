@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "sidebar": "docsify-auto-sidebar -d ."
+  },
+  "devDependencies": {
+    "docsify-tools": "^1.0.20"
+  }
+}

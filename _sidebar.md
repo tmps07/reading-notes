@@ -1,27 +1,27 @@
 * [首頁](/)
 
 * Programming
-  * [C](programming/c/README.md)
-  * [C++](programming/cpp/README.md)
-  * [Assembly](programming/assembly/README.md)
-  * [Python](programming/python/README.md)
-  * [Shell](programming/shell/README.md)
-  * [Web](programming/web/README.md)
+  * [C](programming/c/)
+  * [C++](programming/cpp/)
+  * [Assembly](programming/assembly/)
+  * [Python](programming/python/)
+  * [Shell](programming/shell/)
+  * [Web](programming/web/)
 
 * STEM
-  * [Arduino](stem/arduino/README.md)
-  * [ESP8266](stem/esp8266/README.md)
-  * [ESP32](stem/esp32/README.md)
-  * [8051](stem/8051/README.md)
-  * [LinkIt 7697](stem/linkit7697/README.md)
-  * [Sensors](stem/sensors/README.md)
+  * [Arduino](stem/arduino/)
+  * [ESP8266](stem/esp8266/)
+  * [ESP32](stem/esp32/)
+  * [8051](stem/8051/)
+  * [LinkIt 7697](stem/linkit7697/)
+  * [Sensors](stem/sensors/)
 
-* [Google Apps Script](gas/README.md)
+* [Google Apps Script](gas/)
 
 * Science
-  * [數學](science/math/README.md)
-  * [自然科學](science/nature/README.md)
+  * [數學](science/math/)
+  * [自然科學](science/nature/)
 
-* [Markdown Language](markdown/README.md)
+* [Markdown Language](markdown/)
 
-* [古詩詞](poetry/README.md)
+* [古詩詞](poetry/)

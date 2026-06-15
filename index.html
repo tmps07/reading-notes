@@ -49,28 +49,19 @@
 
   <script>
     window.$docsify = {
-      name: "我的閱讀筆記",
-      repo: "",
-      homepage: "README.md",
 
-      loadSidebar: true,
-      subMaxLevel: 3,
-      auto2top: true,
+    name: "我的閱讀筆記",
+    homepage: "README.md",
+    loadSidebar: true,
+    subMaxLevel: 3,
+    auto2top: true,
+    alias: {
+      "/.*/_sidebar.md": "/_sidebar.md"
+    },
+    autoHeader: true
 
-      search: {
-        maxAge: 86400000,
-        paths: "auto",
-        placeholder: "搜尋筆記",
-        noData: "找不到相關內容",
-        depth: 4
-      },
-
-      latex: {
-        inlineMath: [["$", "$"], ["\\(", "\\)"]],
-        displayMath: [["$$", "$$"]]
-      }
-    };
-  </script>
+  };
+</script>
 
   <!-- Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
