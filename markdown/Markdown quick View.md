@@ -318,8 +318,3 @@ date: 2026
 | Mermaid | ✗ | ✓ | ✓ | ✗ |
 | Task | ✗ | ✓ | ✓ | ✓ | 
 | HTML | 部分 | ✓ | ✓ | 限制 |
-
-# 具有程式設計背景的 Markdown 教學
-
-[第一章　Markdown 基礎與設計理念](<./第一章　Markdown 基礎與設計理念.md>)
-
