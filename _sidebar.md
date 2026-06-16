@@ -2,6 +2,7 @@
     - [GithubDocsify閱讀筆記網站建置整理](/markdown/GithubDocsify閱讀筆記網站建置整理.md)
     - [MarkdownQuickView](/markdown/MarkdownQuickView.md)
     - [Markdown基礎與設計理念](/markdown/Markdown基礎與設計理念.md)
+    - [Markdown完整語法教學](/markdown/Markdown完整語法教學.md)
   - [ollama](/ollama/README.md)
     - [Ollama快速導覽](/ollama/Ollama快速導覽.md)
   - [poetry](/poetry/README.md)
