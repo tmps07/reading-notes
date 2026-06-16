@@ -309,15 +309,15 @@ LaTeX
 
 #### 優勢
 
-> ① 可版本控制，適合：`Git`
-> ② 純文字，可：`diff`、`merge`、`grep`
+> ① 可版本控制，適合：`Git`<br>
+> ② 純文字，可：`diff`、`merge`、`grep`<br>
 > ③ 易轉換，支援：`HTML`、`PDF`、`DOCX`、`EPUB`、`PPT`
 
 #### 短板
 
-> ① 限制：`無完整排版能力`，不能：`grid`、`float`、`flex`。
-> ② 無互動能力，如：`onclick`、`script`。
-> ③ Syntax 不統一，這是最大問題。
+> ① 限制：`無完整排版能力`，不能：`grid`、`float`、`flex`。<br>
+> ② 無互動能力，如：`onclick`、`script`。<br>
+> ③ Syntax 不統一，這是最大問題。<br>
 > ④ 不同平台上：`公式`、`Mermaid`、`腳註`結果不同。
 
 ### 1.6 Markdown 方言（Flavor）
@@ -453,15 +453,15 @@ Exporter
 
 建立：
 
-> 01-history.md
-> 02-parser.md
-> 03-flavors.md
+> 1. history.md
+> 2. parser.md
+> 3. flavors.md
 
 內容要求：
 
-> 寫一個 H1
-> 一段清單
-> 一段 HTML
-> 嘗試轉成 HTML
+> - 寫一個 H1
+> - 一段清單
+> - 一段 HTML
+> - 嘗試轉成 HTML
 
 並觀察差異。
