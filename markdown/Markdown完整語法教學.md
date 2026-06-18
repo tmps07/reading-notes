@@ -4,6 +4,8 @@
 ### Table of Contents
 > 1. [2.1 標題（Heading）](#21-標題heading)
 > 2. [2.2 段落（Paragraph）](#22-段落paragraph)
+> 3. [2.2 段落（Paragraph）](#23-換行line-break)
+> 4. [2.4 強調（Emphasis）](#24-強調emphasis)
 
 ---
 ### 2.1 標題（Heading）
@@ -145,9 +147,96 @@
 ```
 #### 平台支援方式
 ```Markdown
-    兩空格	部分    
+    兩空格  部分    
     <br>	幾乎全部
 ```
+[↑](#table-of-contents)
+
+---
+### 2.4 強調（Emphasis）
+#### 功能說明
+    1. 語意標記。
+    2. 不是美化。
+#### 粗體
+```Markdown
+    語法：**重要**
+    HTML：<strong>
+```
+結果：**重要**
+#### 斜體
+```HTML
+    語法：*斜體*
+    HTML：<em>
+```
+結果：*斜體*
+#### 粗斜體
+    語法：***粗斜***
+結果：***粗斜**
+#### 刪除線
+```HTML
+    語法：~~刪除~~
+    HTML：<del>
+```
+結果：~~刪除~~
+#### 常見錯誤
+    符號不配對：**錯*
+#### AST
+    Paragraph
+    └─ Strong
+[↑](#table-of-contents)
+
+---
+### 2.5 清單（List）
+#### 功能說明
+    表示集合，不是縮排。
+#### 無序清單
+    - A
+    - B
+顯示：
+> - A
+> - B
+
+HTML：
+```HTML
+<ul>
+<li>A</li>
+</ul>
+```
+#### 有序清單
+1. A
+2. B
+
+結果：
+
+A
+B
+
+HTML：
+
+<ol>
+巢狀清單
+- 主項
+  - 子項
+
+結果：
+
+主項
+子項
+使用情境
+
+課程：
+
+章
+├─節
+└─活動
+常見錯誤
+
+Tab 與空格混用。
+
+#### AST
+    List
+    ├─ Item
+    └─ Item
 [↑](#table-of-contents)
 
 ---
