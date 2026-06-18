@@ -2,11 +2,11 @@
 
 ---
 ### Table of Contents
-> 1. [2.1 標題（Heading）](#21-標題-heading)
-> 2. [2.2 段落（Paragraph）](#22-段落-paragraph)
-> 3. [2.2 段落（Paragraph）](#23-換行-line-break)
-> 4. [2.4 強調（Emphasis）](#24-強調-emphasis)
-> 5. [2.5 清單（List）](#25-清單-list)
+> 1. [2.1 標題 Heading](#21-標題-heading)
+> 2. [2.2 段落 Paragraph](#22-段落-paragraph)
+> 3. [2.2 段落 Paragraph](#23-換行-line-break)
+> 4. [2.4 強調 Emphasis](#24-強調-emphasis)
+> 5. [2.5 清單 List](#25-清單-list)
 
 ---
 ### 2.1 標題 Heading
