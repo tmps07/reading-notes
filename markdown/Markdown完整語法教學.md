@@ -2,13 +2,14 @@
 
 ---
 ### Table of Contents
-> 1. [2.1 標題（Heading）](#21-標題heading)
-> 2. [2.2 段落（Paragraph）](#22-段落paragraph)
-> 3. [2.2 段落（Paragraph）](#23-換行line-break)
-> 4. [2.4 強調（Emphasis）](#24-強調emphasis)
+> 1. [2.1 標題（Heading）](#21-標題-heading)
+> 2. [2.2 段落（Paragraph）](#22-段落-paragraph)
+> 3. [2.2 段落（Paragraph）](#23-換行-line-break)
+> 4. [2.4 強調（Emphasis）](#24-強調-emphasis)
+> 5. [2.5 清單（List）](#25-清單-list)
 
 ---
-### 2.1 標題（Heading）
+### 2.1 標題 Heading
 #### 功能說明：
 ```Markdown
     用來 `表示文件階層`。
@@ -81,7 +82,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.2 段落（Paragraph）
+### 2.2 段落 Paragraph
 #### 功能說明
     表示文字區塊。Markdown：沒有 `<p>`，由 Parser 自動推導。
 #### 基本語法
@@ -125,7 +126,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.3 換行（Line Break）
+### 2.3 換行 Line Break
 #### 功能說明：
     換行 ≠ 新段落。
 #### 基本語法
@@ -153,7 +154,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.4 強調（Emphasis）
+### 2.4 強調 Emphasis
 #### 功能說明
     1. 語意標記。
     2. 不是美化。
@@ -186,7 +187,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.5 清單（List）
+### 2.5 清單 List
 #### 功能說明
     表示集合，不是縮排。
 #### 無序清單
@@ -207,31 +208,29 @@ HTML：
 2. B
 
 結果：
-
-A
-B
+> 1. A
+> 2. B
 
 HTML：
+```HTML
+    <ol>
+```
+#### 巢狀清單
+    - 主項
+      - 子項
 
-<ol>
-巢狀清單
+結果：
 - 主項
   - 子項
 
-結果：
-
-主項
-子項
-使用情境
-
+#### 使用情境
 課程：
+    章
+    ├─節
+    └─活動
 
-章
-├─節
-└─活動
-常見錯誤
-
-Tab 與空格混用。
+#### 常見錯誤
+    Tab 與空格混用。
 
 #### AST
     List
