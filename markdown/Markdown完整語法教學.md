@@ -7,6 +7,13 @@
 > 3. [2.2 段落 Paragraph](#23-換行-line-break)
 > 4. [2.4 強調 Emphasis](#24-強調-emphasis)
 > 5. [2.5 清單 List](#25-清單-list)
+> 6. [2.6 引用 Blockquote](#26-引用-blockquote)
+> 7. [2.7 程式碼 Code](#27-程式碼-code)
+> 8. [2.8 表格 Table](#28-表格-table)
+> 9. [2.9 連結 Link](#29-連結-link)
+> 10. [2.10 圖片 Image](#210-圖片-image)
+> 11. [分隔線 Horizontal Rule](#211-分隔線-horizontal-rule)
+> 12. [第二章（上）總結](#第二章上總結)
 
 ---
 ### 2.1 標題 Heading
@@ -68,7 +75,6 @@
         ## B
 ```
 #### 平台支援
-平台	支援
 ```Markdown
     [✓] GitHub
     [✓] Obsidian
@@ -117,9 +123,8 @@
     ❌ 少空行：
         第一段
         第二段
+    可能合併。
 ```
-可能合併。
-
 #### AST
     Document
     └─ Paragraph
@@ -193,11 +198,11 @@
 #### 無序清單
     - A
     - B
-顯示：
+#### 顯示：
 > - A
 > - B
 
-HTML：
+#### HTML：
 ```HTML
 <ul>
 <li>A</li>
@@ -207,27 +212,26 @@ HTML：
 1. A
 2. B
 
-結果：
+#### 結果：
 > 1. A
 > 2. B
 
-HTML：
+#### HTML：
 ```HTML
     <ol>
 ```
 #### 巢狀清單
     - 主項
       - 子項
-
-結果：
+#### 結果：
 - 主項
   - 子項
 
 #### 使用情境
-課程：
-    章
-    ├─節
-    └─活動
+    課程：
+        章
+        ├─節
+        └─活動
 
 #### 常見錯誤
     Tab 與空格混用。
@@ -236,6 +240,164 @@ HTML：
     List
     ├─ Item
     └─ Item
+[↑](#table-of-contents)
+
+---
+### 2.6 引用 Blockquote
+#### 功能說明
+    表示引用。
+#### 語法
+    > 引用
+#### 結果：
+> 引用
+#### 巢狀
+    > 第一層
+    >> 第二層
+#### 結果：
+> 第一層
+> > 第二層
+#### HTML
+```HTML
+<blockquote>
+```
+#### 使用情境
+    教材：
+    引用題目。
+[↑](#table-of-contents)
+
+---
+### 2.7 程式碼 Code
+#### 行內
+    使用 `printf`
+#### 結果：
+使用 `printf`
+#### HTML：
+```HTML
+<code>
+```
+#### 區塊
+    ```c
+    printf("hi");
+    ```
+#### 結果：
+```c
+printf("hi");
+```
+#### HTML：
+```HTML
+<pre>
+<code>
+```
+#### 常見語言
+    c
+    cpp
+    js
+    py
+    html
+    css
+    asm
+    arduino
+#### 教學案例
+    程式課
+    作業
+    範例解答
+[↑](#table-of-contents)
+
+---
+### 2.8 表格 Table
+#### 功能說明
+    資料呈現。
+#### 語法
+    |姓名|分數|
+    |---|---|
+    |A|90|
+#### 結果：
+|姓名|分數|
+|---|---|
+|A|90|
+#### 對齊
+    左  |:--|
+    中  |:-:|
+    右  |--:|
+#### HTML
+```HTML
+<table>
+```
+#### 常見錯誤
+    欄位不一致。
+#### 支援
+|平台|支援|
+|:--|:--|
+|GitHub|✓|
+|Obsidian|✓|
+|Notion|有限|
+
+[↑](#table-of-contents)
+
+---
+### 2.9 連結 Link
+#### 語法
+    [Google](https://google.com)
+#### 結果：
+[Google](https://google.com)
+#### HTML：
+```HTML
+<a>
+```
+#### 相對連結
+    [第二章](chapter2.md)
+#### 常見錯誤
+    括號位置：
+    [text][url]
+[↑](#table-of-contents)
+
+---
+### 2.10 圖片 Image
+#### 語法
+    ![圖](cat.png)
+![Markdown](./mdImage/markdown.jpg)
+#### HTML：
+```HTML
+<img>
+```
+#### 進階
+```HTML
+<img width="400">
+```
+#### 使用情境
+    教材。
+[↑](#table-of-contents)
+
+---
+### 2.11 分隔線 Horizontal Rule
+#### 語法：
+    ---
+#### 或：
+    ***
+#### 結果：
+---
+#### HTML：
+```HTML
+<hr>
+```
+    教材。
+[↑](#table-of-contents)
+
+---
+### 第二章（上）總結
+
+    ✓ 標題
+    ✓ 段落
+    ✓ 換行
+    ✓ 強調
+    ✓ 清單
+    ✓ 引用
+    ✓ 程式碼
+    ✓ 表格
+    ✓ 連結
+    ✓ 圖片
+    ✓ 分隔線
+
 [↑](#table-of-contents)
 
 ---
