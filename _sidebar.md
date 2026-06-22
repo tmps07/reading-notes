@@ -3,6 +3,7 @@
     - [MarkdownQuickView](/markdown/MarkdownQuickView.md)
     - [Markdown基礎與設計理念](/markdown/Markdown基礎與設計理念.md)
     - [Markdown完整語法教學](/markdown/Markdown完整語法教學.md)
+    - [Markdown進階語法與工程實務](/markdown/Markdown進階語法與工程實務.md)
   - [ollama](/ollama/README.md)
     - [Ollama快速導覽](/ollama/Ollama快速導覽.md)
   - [poetry](/poetry/README.md)
