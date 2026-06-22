@@ -1,22 +1,22 @@
-# 第二章　完整語法教學（核心語法）
+# 第二章（上）完整語法教學（核心語法）
 
 ---
 ### Table of Contents
-> 1. [2.1 標題 Heading](#21-標題-heading)
-> 2. [2.2 段落 Paragraph](#22-段落-paragraph)
-> 3. [2.2 段落 Paragraph](#23-換行-line-break)
-> 4. [2.4 強調 Emphasis](#24-強調-emphasis)
-> 5. [2.5 清單 List](#25-清單-list)
-> 6. [2.6 引用 Blockquote](#26-引用-blockquote)
-> 7. [2.7 程式碼 Code](#27-程式碼-code)
-> 8. [2.8 表格 Table](#28-表格-table)
-> 9. [2.9 連結 Link](#29-連結-link)
-> 10. [2.10 圖片 Image](#210-圖片-image)
-> 11. [分隔線 Horizontal Rule](#211-分隔線-horizontal-rule)
-> 12. [第二章（上）總結](#第二章上總結)
+> 1. [2.1 標題 Heading](#21-標題)
+> 2. [2.2 段落 Paragraph](#22-段落)
+> 3. [2.2 段落 Paragraph](#23-換行)
+> 4. [2.4 強調 Emphasis](#24-強調)
+> 5. [2.5 清單 List](#25-清單)
+> 6. [2.6 引用 Blockquote](#26-引用)
+> 7. [2.7 程式碼 Code](#27-程式碼)
+> 8. [2.8 表格 Table](#28-表格)
+> 9. [2.9 連結 Link](#29-連結)
+> 10. [2.10 圖片 Image](#210-圖片)
+> 11. [分隔線 Horizontal Rule](#211-分隔線)
+> 12. [第二章（上）總結](#第二章-上-總結)
 
 ---
-### 2.1 標題 Heading
+### 2.1 標題
 #### 功能說明：
 ```Markdown
     用來 `表示文件階層`。
@@ -88,7 +88,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.2 段落 Paragraph
+### 2.2 段落
 #### 功能說明
     表示文字區塊。Markdown：沒有 `<p>`，由 Parser 自動推導。
 #### 基本語法
@@ -131,7 +131,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.3 換行 Line Break
+### 2.3 換行
 #### 功能說明：
     換行 ≠ 新段落。
 #### 基本語法
@@ -159,7 +159,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.4 強調 Emphasis
+### 2.4 強調
 #### 功能說明
     1. 語意標記。
     2. 不是美化。
@@ -192,7 +192,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.5 清單 List
+### 2.5 清單
 #### 功能說明
     表示集合，不是縮排。
 #### 無序清單
@@ -243,7 +243,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.6 引用 Blockquote
+### 2.6 引用
 #### 功能說明
     表示引用。
 #### 語法
@@ -266,7 +266,7 @@
 [↑](#table-of-contents)
 
 ---
-### 2.7 程式碼 Code
+### 2.7 程式碼
 #### 行內
     使用 `printf`
 #### 結果：
@@ -304,7 +304,7 @@ printf("hi");
 [↑](#table-of-contents)
 
 ---
-### 2.8 表格 Table
+### 2.8 表格
 #### 功能說明
     資料呈現。
 #### 語法
@@ -335,7 +335,7 @@ printf("hi");
 [↑](#table-of-contents)
 
 ---
-### 2.9 連結 Link
+### 2.9 連結
 #### 語法
     [Google](https://google.com)
 #### 結果：
@@ -352,7 +352,7 @@ printf("hi");
 [↑](#table-of-contents)
 
 ---
-### 2.10 圖片 Image
+### 2.10 圖片
 #### 語法
     ![圖](cat.png)
 ![Markdown](./mdImage/markdown.jpg)
@@ -384,7 +384,7 @@ printf("hi");
 [↑](#table-of-contents)
 
 ---
-### 第二章（上）總結
+### 第二章 上 總結
 
     ✓ 標題
     ✓ 段落
