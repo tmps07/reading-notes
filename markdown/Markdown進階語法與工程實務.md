@@ -1,8 +1,10 @@
 # 第二章（下）進階語法與工程實務
 ---
 ### Table of Contents
-> [2.12 錨點 Anchor](#212-錨點)
-> [2.13 腳註 Footnote](#213-腳註-footnote)
+> [2.12 錨點 Anchor](#212-錨點)  
+> [2.13 腳註 Footnote](#213-腳註-footnote)  
+> [2.14 任務清單 Task List](#214-任務清單-task-list)  
+> [2.15 HTML 混用 Raw HTML](#215-html-混用-raw-html)
 ---
 ### 2.12 錨點
 #### 功能說明
@@ -72,6 +74,7 @@
     [^1]: 補充說明
 #### 顯示結果
     文字¹
+#### HTML
 ```HTML
     <sup>
 ```
@@ -92,10 +95,84 @@
     無內容。
 
 #### 支援
-平台        支援  
-GitHub	    ✓  
-Obsidian	✓  
-Notion	    ✗
+|平台|支援|
+|:--|:--|  
+|GitHub|✓| 
+|Obsidian|✓|  
+|Notion|✗|
+[↑](#table-of-contents)
+
+---
+### 2.14 任務清單 Task List
+#### 功能說明
+    核取方塊。
+#### 基本語法
+    - [ ] 未完成
+    - [x] 已完成
+#### 結果：
+> - [ ] 未完成
+> - [ ] 已完成
+#### HTML
+```HTML
+<input>
+```
+#### 使用情境
+    教師：
+        □ 出題
+        □ 上課
+        □ 評量
+#### 進階技巧
+    巢狀：
+    - [x] 第一章
+      - [ ] 第二章
+#### 常見錯誤
+    缺空格：
+        -[ ]
+#### 支援
+|平台|支援|
+|:--|:--|
+|GitHub|✓|
+|Obsidian|✓|
+|Typora|✓|
+[↑](#table-of-contents)
+
+---
+### 2.15 HTML 混用 Raw HTML
+#### 功能說明
+    突破 Markdown 限制。
+#### 基本語法
+```HTML
+<div>
+    內容
+</div>
+```
+#### 顯示結果
+    HTML 直接渲染。
+#### 使用情境
+> 控制：
+> - 寬度
+> - 顏色
+> - 排版
+#### 進階技巧
+> ```HTML
+> 圖片：
+> <img width="300">
+> 影片：
+> <iframe>
+> 折疊：
+> <details>
+```
+#### 常見錯誤
+    HTML 被過濾。
+    例如：
+        GitHub：
+        script 禁止
+#### 支援
+|平台|HTML|
+|:--|:--|
+|GitHub|部分|
+|Obsidian|✓|
+|Notion|限制|
 [↑](#table-of-contents)
 
 ---
