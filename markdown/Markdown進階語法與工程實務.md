@@ -100,6 +100,7 @@
 |GitHub|✓| 
 |Obsidian|✓|  
 |Notion|✗|
+
 [↑](#table-of-contents)
 
 ---
@@ -134,6 +135,7 @@
 |GitHub|✓|
 |Obsidian|✓|
 |Typora|✓|
+
 [↑](#table-of-contents)
 
 ---
@@ -161,7 +163,7 @@
 > <iframe>
 > 折疊：
 > <details>
-```
+> ```
 #### 常見錯誤
     HTML 被過濾。
     例如：
@@ -173,6 +175,7 @@
 |GitHub|部分|
 |Obsidian|✓|
 |Notion|限制|
+
 [↑](#table-of-contents)
 
 ---
